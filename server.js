@@ -17,4 +17,4 @@ app.get('*', (req, res) => {
 	res.redirect(req.url.slice(1,));
 	console.log(`going to ${req.url.slice(1,)}`);
 });
-app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+app.listen(port, () => console.log(`app listening on port ${port}!`))
